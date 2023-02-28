@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+section {
+    background: #FAFAFA;
+.mt {
+    margin-top: 7px;
+}
+
+.mt1 {
+    margin-top: 9px;
+}
+
+.left {
+    h2 {
+        font-family: 'Plus Jakarta Sans';
+        text-shadow: 0 0 1px #072125;
+        letter-spacing: 0.9px;
+    }
+    .description {
+        font-family: 'Plus Jakarta Sans';
+
+    }
+}
+
+.right {
+    position: relative;
+    svg {
+        top: 10%;
+        right: 9%;
+    }
+
+    .darkgreen {
+        padding: 1rem;
+        background-color: #20484F;
+        border-radius: 6px;
+        position: absolute;
+        right: -3%;
+        top: 11%;
+        padding-right: 40px;
+    padding-bottom: 20px;  
+
+            i {
+                border-radius: 50%;
+                padding: 0.7rem;
+                color: #20484F;
+                background-color: #DCF2ED;
+            }
+        
+
+        .clients {
+                        p {
+                color: white;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                text-shadow: 0px 0px 1px white;
+            }
+            .line {
+                border: 3px solid  #DCF2ED;
+                border-radius: 3px;
+            }
+
+        } }
+  
+
+    .white {
+        padding: 1rem;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+        position: absolute;
+        left: 4%;
+        bottom: 15%;
+    .icon {
+        padding: 0px 12px 7px 0px;
+                 i {
+            border-radius: 50%;
+            padding: 0.8rem;
+                        color: #20484F;
+            background-color: #DCF2ED;
+         }
+
+    }
+    .project {padding: 0px 27px 5px 0px;
+    p {
+        color: #20484F;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+
+        text-shadow: 0px 0px 1px #20484F;
+    }
+.line {
+    border: 3px solid rgb(233 237 237)
+    ;
+    border-radius: 3px;  
+}}
+} } }
+
+
