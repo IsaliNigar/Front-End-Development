@@ -1,0 +1,25 @@
+.row {
+  margin-bottom: 100px;
+  margin-top: 55px !important;
+}
+
+.navbar-nav {
+  justify-content: flex-start !important;
+}
+.navbar-nav .nav-item a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-top: 0.3px;
+  margin-bottom: 1.4rem;
+}
+.navbar-nav .nav-item .flex-row {
+  margin-right: auto;
+}
+.navbar-nav .nav-item .navbar-nav.flex-row li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.navbar-nav .nav-item .navbar-nav.flex-row li a {
+  padding: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
