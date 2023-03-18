@@ -12,14 +12,5 @@
   line-height: 1.5;
   padding-top: 0.3px;
   margin-bottom: 1.4rem;
-}
-.navbar-nav .nav-item .flex-row {
-  margin-right: auto;
-}
-.navbar-nav .nav-item .navbar-nav.flex-row li {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.navbar-nav .nav-item .navbar-nav.flex-row li a {
-  padding: 0.5rem;
+  font-family: "helveticaneuemedium";
 }/*# sourceMappingURL=style.css.map */
