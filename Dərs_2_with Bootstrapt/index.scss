@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+section {
+    background-color: rgb(76 50 45);
+
+.card {
+    height: 25rem;
+
+.card-img-top {
+  background: white;
+  border-radius: 54%;
+  height: 174px;
+  width: 179px;
+  font-size: small;
+  text-align: center;
+  margin-left: 5.8rem;
+  margin-top: 2rem;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(195 185 182);
+}
+
+.card-body {
+  text-align: center !important;
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  .line {
+    border: 1px solid red;
+    width: 36%;
+    margin-left: 6.5rem;
+    margin-top: 0.8rem;
+  }
+} }}
+}
