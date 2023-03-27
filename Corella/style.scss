@@ -1,0 +1,52 @@
+.container {
+  width: 85% !important;
+  .horizontal {
+    padding-bottom: 4rem;
+    img {
+      height: 50px;
+      margin-top: 1rem;
+    }
+
+    a {
+      color: #008200;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-family: Sofia;
+      padding-left: 2rem !important;
+    }
+
+    .languages1 {
+      padding-left: 5rem !important;
+    }
+    .languages {
+      padding-left: 0 !important ;
+    }
+  }
+
+  .boxes {
+    height: 300px;
+    border-radius: 25px;
+    background: rgb(239 239 239);
+    width: 250px;
+    text-align: center;
+    margin: 3rem 1rem;
+
+    img {
+      width: 70%;
+      padding-top: 3rem;
+    }
+
+    .medium {
+      padding-top: 4rem;
+    }
+  }
+
+
+  .boxes:hover img {
+    transform: scale(1.1);
+  }
+
+  .hover-box1:hover {
+    background-color: #008200;
+  }
+}
