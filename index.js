@@ -454,11 +454,121 @@
 //9
 //arr2 de terkibinde 2 'L' herfi olan obyekt(ler)in index(ler)ini tapin
 
+//10
+//SWITCH CASE ILE ASHAGIDAKI TELEBLERI ODEYEN FUNCTION YAZIN
 
+//10.1
+//Göstərilmiş type-lara uyğun case-lər yazın ve yazdığınız functionda parametr olaraq type göndərin ve birinci mərhələdə sadəcə 'case'-in adını consola verin
 
+// let SET = 'SET_DATA';
+// let GET = 'GET_DATA';
+// let DELETE = 'DELETE_DATA';
 
+// function processData (type) {
+//   switch (type) {
+//     case 'SET_DATA':
+//     console.log('SET');
+//      break;
+//      case 'GET_DATA':
+//       console.log('GET');
+//       break;
+//       case 'DELETE_DATA':
+//       console.log('DELETE')
+//       break;
+//   }
+// }
+// processData('SET_DATA');
+// processData('GET_DATA');
+// processData('DELETE_DATA');
 
+//2ci merhelede functiondan kenarda array yaradin ve Case 'SET' oldugu halda arraya 1-10 arasi bir reqem elave edin
 
+// let SET = 'SET_DATA';
+// let GET = 'GET_DATA';
+// let DELETE = 'DELETE_DATA';
+// let Arr = []
+
+// function processData (type) {
+//   switch (type) {
+//     case 'SET_DATA':
+//     console.log('SET');
+//      break;
+//      case 'GET_DATA':
+//       console.log('GET');
+//       break;
+//       case 'DELETE_DATA':
+//       console.log('DELETE')
+//       break;
+//       case 'SET':
+//       Arr.push(1,2,3,4,5,6,7,8,9,10)
+//       console.log(Arr)
+//   }
+// }
+// processData('SET_DATA');
+// processData('GET_DATA');
+// processData('DELETE_DATA');
+// processData('SET');
+
+//Case -  'DELETE'  olarsa arraydan 1 item silin ARRAY BOW OLDUGU HALDA ERROR CIXMALIDIR - 'SILINECEK DATA TAPILMADI' ve sonda arrayi consola cixardin.
+
+// let SET = 'SET_DATA';
+// let GET = 'GET_DATA';
+// let DELETE = 'DELETE_DATA';
+// let Arr = [];
+
+// function processData (type) {
+//   switch (type) {
+//     case 'SET_DATA':
+//     console.log('SET');
+//      break;
+//      case 'GET_DATA':
+//       console.log('GET');
+//       break;
+//       case 'DELETE_DATA':
+//       console.log('DELETE')
+//       break;
+//       case 'SET':
+//       Arr.push(1,2,3,4,5,6,7,8,9,10)
+//       console.log(Arr)
+//       break;
+//       case 'DELETE':
+//         if (Arr.length === 0) {
+//           console.log('Silinecek data tapilmadi');
+//         } else {
+//           Arr.splice(0, 1);
+//           console.log(Arr);
+//         }
+//         break;
+//   }
+// }
+// processData('SET_DATA');
+// processData('GET_DATA');
+// processData('DELETE_DATA');
+// processData('SET');
+// processData('DELETE');
+
+//Case - 'GET' oldugu halda ise sadece array consolda gorunsun
+
+// let SET = 'SET_DATA';
+// let GET = 'GET_DATA';
+// let DELETE = 'DELETE_DATA';
+
+// function processData (type) {
+//   switch (type) {
+//     case 'SET_DATA':
+//     console.log('SET');
+//      break;
+//      case 'GET_DATA':
+//       console.log('GET');
+//       break;
+//       case 'DELETE_DATA':
+//       console.log('DELETE')
+//       break;
+//   }
+// }
+// processData('SET_DATA');
+// processData('GET_DATA');
+// processData('DELETE_DATA'); 
 
 
 
