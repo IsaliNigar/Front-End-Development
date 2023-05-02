@@ -572,3 +572,74 @@
 
 
 
+
+//AY-lar dan ibaret arrayi loopa salin ve her ayda nece gun oldugunu switch case ile Ayin adi + gun sayi  ni consola verin
+//Example  'December - 31 days'
+//QEYD - FEVRAL OLANDA 28-29 gorunmelidir. mL arrayindan istifade edilmelidir
+
+// let mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+// for (i=0; i<mL.length; i++) {
+//   let month = mL[i];
+//   let days;
+//   switch (month) {
+//     case 'January':
+//       case 'March':
+//         case 'May':
+//           case 'July':
+//             case 'August':
+//               case 'October':
+//                 case 'December':
+//                   console.log(mL[i] + " -31 days")
+//                   break;
+//                   case 'February':
+//                   console.log (mL[i]+ " -28/29 days")
+//                   break;
+//                   case 'April':
+//                     case 'June':
+//                       case 'September':
+//                         case 'November':
+//                           console.log (mL[i]+ " -30 days");
+//                           break;
+
+
+
+
+//Task 2 - deki mentiqi Date() objecti uzerinde ishledin. Hazirda oldugumuz ayi tapin ve gunlerinin sayini gosterin
+
+// let mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// const now = new Date();
+// const month = mL[now.getMonth()]
+// let days;
+
+// for (i=0; i<mL.length; i++) {
+//   switch (month) {
+//     case 'January':
+//       case 'March':
+//         case 'May':
+//           case 'July':
+//             case 'August':
+//               case 'October':
+//                 case 'December':
+//                   days = 31;
+
+//                   break;
+//                   case 'February':
+//                     days = 28/29;
+//                   break;
+//                   case 'April':
+//                     case 'June':
+//                       case 'September':
+//                         case 'November':
+//                           days = 30;
+//                           break; }}
+//                           console.log(month+ ' - ' + days + ' days')
+
+
+// Ad ve soyadinizi yazin ve onlari ashagidaki struktura getirin
+
+
+let fullName = 'Murad Nerimanli'
+let names = fullName.split(' ');
+
+
