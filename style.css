@@ -1,0 +1,6 @@
+.card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: blur(10px);
+}/*# sourceMappingURL=style.css.map */

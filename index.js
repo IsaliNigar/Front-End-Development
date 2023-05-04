@@ -636,10 +636,23 @@
 //                           console.log(month+ ' - ' + days + ' days')
 
 
-// Ad ve soyadinizi yazin ve onlari ashagidaki struktura getirin
+var btnCards = document.querySelectorAll(".btnCards")
+btnCards.forEach(element =>{
+element.addEventListener("click",function()
+{ var img = element.parentElement.previousElementSibling;
+  img.style.filter="blur(0)"
 
 
-let fullName = 'Murad Nerimanli'
-let names = fullName.split(' ');
+}
+
+
+)
+
+
+
+}
+  
+  
+  )
 
 
